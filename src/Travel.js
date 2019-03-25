@@ -1,11 +1,13 @@
 import React from "react";
+import travels from "./Travels";
+import Travels from "./Travels";
 
-const Travel = ({ dest, count, pho, dist }) => (
+const Travel = ({ destination, country, photo, distance }) => (
   <div>
-   <h1>destination: {dest}</h1>
-    <h2>country : {count}</h2>
-    <h3>photo : <img src={pho}/></h3>
-    <h4>distance : {dist}</h4>
+   <h1>destination: {destination}</h1>
+    <h2>country : {country}</h2>
+    <h3>photo : <img src={photo}/></h3>
+    <h4>distance : {distance}</h4>
   </div>
 
 );
